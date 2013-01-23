@@ -27,6 +27,6 @@
 
 add_action('wp_enqueue_scripts', 'basic_jquery_slider_enqueue_files');
 function basic_jquery_slider_enqueue_files() {
-  wp_enqueue_script('basic_jquery_slider', plugins_url('bjqs.min.js', __FILE__), array('jquery'));
+  wp_enqueue_script('basic_jquery_slider', plugins_url('js/bjqs-1.3.min.js', __FILE__), array('jquery'));
   wp_enqueue_style('basic_jquery_slider', plugins_url('bjqs.css', __FILE__));
 }
